@@ -1,0 +1,11 @@
+@charset "utf-8";
+*{margin: 0;padding: 0;}
+li{list-style: none;}
+a{text-decoration: none;color: black;}
+@font-face { font-family: YouandiModern; src: url(/font/fontYouandiModernTR.woff); } 
+@font-face { font-family: Youandi-Black; src: url(/font/Youandi-Black.ttf); } 
+
+
+@fontNotoSans { font-family: 'Noto Sans KR', sans-serif; } 
+
+@fontHyndai { font-family: YouandiModern; } 

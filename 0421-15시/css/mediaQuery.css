@@ -1,0 +1,285 @@
+/* ---------------------------현대카드 홈페이지는 1300px이 최소값임 */
+
+
+@media screen and (max-width: 1600px) {
+
+    body {
+        width: 1600px;
+    }
+
+    #header {
+        min-width: 1300px;
+    }
+
+    header .homeIdex {
+        margin: 0 auto;
+    }
+
+    header .scrolled .homeIdex {
+        margin: 0 auto;
+    }
+
+    .list_dep3 {
+        width: 190px;
+        padding-left: 0px;
+        margin-bottom: 22px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13px;
+    }
+
+
+    .list_dep3_culture>ul>li {}
+
+    .list_dep3 {
+        width: 180px;
+        margin-bottom: 22px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-size: 13px;
+    }
+
+    .list_dep3_culture>ul>li {
+        padding-left: 10px;
+    }
+
+    .box_dep3_in {
+        width: 85%;
+    }
+
+    .list_etc {
+        min-width: 400px;
+        transform: translateX(267px);
+        transition: .3s;
+    }
+
+    .input_cell_box {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 25px;
+        right: 0px;
+        background: url(img/ico_searchB.png)no-repeat;
+        background-size: contain;
+        position: absolute;
+        transition: .2s;
+        border: 0;
+    }
+
+    .inputTxt {
+        font-size: 0;
+    }
+
+    .box_gnb_banner>.clearfix {
+        width: 95%;
+        display: block;
+        transition: .4s;
+        line-height: 50px;
+    }
+
+    .box_gnb_banner {
+        top: 80px;
+        width: 100%;
+        display: fixed;
+    }
+
+
+
+
+    /* ------------------section---------- */
+
+
+
+
+    #wrap {
+        margin: 0 auto;
+        width: 1200px;
+        height: 3000px;
+        margin-top: 130px;
+        transition: .8s ease-in-out;
+    }
+
+
+    .wrapleft {
+        width: 855px;
+
+        margin-top: 30px;
+        transition: .8s ease-in-out;
+
+    }
+
+    .wrapper1 {
+        width: 820px;
+        transition: .3s ease-in-out;
+    }
+
+    .sec_main_banner {
+        width: 100%;
+        height: 442px;
+   
+    }
+
+    .swiper-wrapper {
+        width: 820px;
+      
+    }
+    .swiper-slide_item > li > a > img{
+       transform: translateX(-14px);
+
+    }
+    .item4 > li:nth-child(1) img{
+     
+        transform: translateX(-155px);
+
+    }
+    
+.swiper_pagination_wrap {
+
+    position: absolute;
+    width: 820px;
+    justify-content: center;
+
+
+    top: 442px;
+    margin-top: 10px;
+
+
+    display: flex;
+    align-items: self-end;
+
+    height: 12px;
+    line-height: 12px;
+    vertical-align: middle;
+    background-color: black;
+    z-index: 1300;
+}
+
+.swiper-button-autoplay {
+    height: 9px;
+    width: 15px;
+    margin: 0 4px;
+   
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    position: relative;
+
+    background: url(/img/swiperSlide/ico_pause_wht.png)no-repeat;
+    background-size: 5px 5px;
+    background-position: 50%;
+    background-color: black;
+}
+
+
+.swiper-button-autoplay.play {
+    height: 9px;
+    width: 15px;
+    margin: 0 4px;
+   
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    position: relative;
+
+    background: url(/img/swiperSlide/ico_play_wht.png)no-repeat;
+    background-size: 5px 5px;
+    background-position: 50%;
+    background-color: black;
+}
+
+
+.swiper_pagination_wrap>li {
+
+    width: 7px;
+    height: 7px;
+    margin: 0 4px;
+    cursor: pointer;
+
+    display: inline-block;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 1);
+
+}
+
+.swiper_pagination_wrap>li.active {
+    vertical-align: middle;
+
+    width: 9px;
+    height: 9px;
+
+    cursor: pointer;
+
+    display: inline-block;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 1);
+
+}
+
+
+    /* .sec_main_banner {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        position: relative;
+        user-select: none;
+        left: 0;
+        margin: 0;
+        padding: 0;
+
+        width: 820px;
+        height: 492px;
+        /* ----pagination들어올자리 남긴 높이임--- */
+
+
+    /* 
+    .swiper-slide_item {
+        width: 820px;
+        border: 2px solid red;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .swiper-slide_item>li {
+        width: 250px;
+    }
+
+    .swiper-slide_item>li>a>img {
+
+        width: 250px;
+        border-radius: 16px;
+        object-position: 50% %;
+
+
+    } */
+
+
+
+
+    .container4 {}
+
+    .grid_list {
+
+        display: grid;
+        grid-template-columns: repeat(3, 290px)
+    }
+
+    .grid_list>li {
+        margin-top: 51px;
+
+        width: 240px;
+        transition: width 200ms ease;
+    }
+
+
+
+    .wrapright {
+        width: 345px;
+        height: 3000px;
+        position: relative;
+        border-left: 1px solid gray;
+        margin-top: 30px;
+
+
+
+
+    }
+}
